@@ -26,3 +26,8 @@ Make sure your DB is up and running.
 ## Error Handling
 
 In `routes/api/index.js`, we define a error-handling middleware for handling Mongoose's `ValidationError`. This middleware will respond with a 422 status code and format the response to have [error messages the clients can understand](https://github.com/gothinkster/realworld/blob/master/API.md#errors-and-status-codes)
+
+
+## Env file
+
+Make a copy of `.env.template` file in your local environment and change the values according to your local settings.
